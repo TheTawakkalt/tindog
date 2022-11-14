@@ -1,6 +1,7 @@
 
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
 
@@ -13,25 +14,36 @@ body {
     padding: 3% 15% 7%;
 }
 
-h1 {
-    font-family: "Montserrat";
+.big-heading {
+    font-family: "Montserrat-black";
     font-size: 3rem; 
     line-height: 1.5;
-    font-weight: 900
+    font-weight: bolder;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-black";
+
 }
 
 h2 {
-    font-family: "Montserrat-bold";
     font-size: 3rem;
     line-height: 1.5;
 }
 
 
 h3 {
-    font-family: "Montserrat";
     font-weight: bold;
     font-size: 1.3rem;
 
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+ 
 }
 
 p {
@@ -89,7 +101,6 @@ p {
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -104,7 +115,6 @@ p {
 
 #testimonials {
     padding: 7% 15%;
-    text-align: center;
     background-color: #A7C4BC;
     color:#fff;
 }
@@ -116,13 +126,12 @@ p {
 
 }
 
-.carousel-item {
+.carousel-item ,#footer, #cta {
     padding: 7% 15%;
 }
 
 #press {
     background-color: #2F5D62;
-    text-align: center;
     padding: 3% 3%;
 }
 
@@ -134,7 +143,13 @@ p {
 #pricing {
     padding: 100px;
     color: #2F5D62;
-    text-align: center;
+
+}
+#cta {
+    background-color: #A7C4BC;
+    color: #fff;
+    width: 100%;
+    margin:0 ;
 
 }
 
@@ -145,6 +160,24 @@ p {
 .signup-button {
     margin: 5% 3% 5% 0;
     width: 50%;
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+
+    }
 }
 
 
